@@ -10329,7 +10329,6 @@ body.fixed-header .header {
   margin-right: .5rem;
   width: auto;
 }
-
 .header-avatar {
   width: 2rem;
   height: 2rem;
@@ -10337,7 +10336,6 @@ body.fixed-header .header {
   vertical-align: bottom;
   border-radius: 50%;
 }
-
 .header-btn {
   display: inline-block;
   width: 2rem;
@@ -10346,7 +10344,6 @@ body.fixed-header .header {
   text-align: center;
   font-size: 1rem;
 }
-
 .header-btn.has-new {
   position: relative;
 }
@@ -12096,7 +12093,7 @@ a.icon:hover {
   background-color: #6383a8;
   border-color: #6383a8;
 }
-
+/*#################################################################################################*/
 .btn-vk:not(:disabled):not(.disabled):active, .btn-vk:not(:disabled):not(.disabled).active,
 .show > .btn-vk.dropdown-toggle {
   color: #fff;
@@ -12108,6 +12105,8 @@ a.icon:hover {
 .show > .btn-vk.dropdown-toggle:focus {
   box-shadow: 0 0 0 2px rgba(99, 131, 168, 0.5);
 }
+
+/*#################################################################################################*/
 
 .btn-rss {
   color: #fff;
