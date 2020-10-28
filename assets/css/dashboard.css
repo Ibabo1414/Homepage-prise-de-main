@@ -3924,7 +3924,7 @@ input[type="button"].btn-block {
 .tab-content > .active {
   display: block;
 }
-
+/*############ *****   START :The Navbar : All section of the Dashboard Rubrique **** #########*/
 .navbar {
   position: relative;
   display: -ms-flexbox;
@@ -4463,7 +4463,7 @@ input[type="button"].btn-block {
 .card-deck .card {
   margin-bottom: 0.75rem;
 }
-
+/*############ *****   END :The Navbar : All section of the Dashboard Rubrique **** #########*/
 @media (min-width: 576px) {
   .card-deck {
     -ms-flex-flow: row wrap;
@@ -10321,7 +10321,7 @@ body.fixed-header .header {
   color: inherit;
   text-decoration: none;
 }
-
+/*################ The firt section to img : header-brand-img #####################*/
 .header-brand-img {
   height: 4rem;
   line-height: 4rem;
@@ -17544,6 +17544,7 @@ svg {
   /* iOS 4.1- */
 }
 
+/*############ *****   START :The fa fa-icons : All icons of the Dashboard **** #########*/
 .fe {
   font-family: 'feather' !important;
   speak: none;
