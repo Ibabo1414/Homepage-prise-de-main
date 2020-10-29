@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 /**
 Dashboard UI
  */
@@ -66,7 +67,9 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Montserrat', sans-serif;
+
+  /* font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; */
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.5;
@@ -370,7 +373,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 600;
   line-height: 1.1;
-  color: inherit;
+  color: #007fff;
 }
 
 h1, .h1 {
@@ -430,7 +433,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 40, 100, 0.12);
+  border-top: 2px solid #000;
 }
 
 small,
@@ -1834,7 +1837,7 @@ pre code {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 40, 100, 0.12);
-  border-radius: 3px;
+  border-radius: 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2367,14 +2370,17 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #467fcf;
-  border-color: #467fcf;
+  appearance: none;
+  margin-top: -.3rem;
+  border-radius: 10px;
+  background-color: #007fff;
+  /* border-color: #467fcf; */
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #316cbe;
-  border-color: #2f66b3;
+  background-color: #74d0f1;
+  /* border-color: #2f66b3; */
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -3603,7 +3609,7 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 100%;
   height: 2.375rem;
-  padding: 0.5rem 1.75rem 0.5rem 0.75rem;
+  /* padding: 0.5rem 1.75rem 0.5rem 0.75rem; */
   line-height: 1.5;
   color: #495057;
   vertical-align: middle;
@@ -3614,6 +3620,8 @@ input[type="button"].btn-block {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  margin-top: -.3rem;
+  border-radius: 15px;
 }
 
 .custom-select:focus {
@@ -4345,7 +4353,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 40, 100, 0.12);
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 .card > hr {
@@ -10170,7 +10178,7 @@ body.fixed-header .page {
 .page-title {
   margin: 0;
   font-size: 1.5rem;
-  font-weight: 400;
+  /* font-weight: 400; */
   line-height: 2.5rem;
 }
 
@@ -13980,7 +13988,7 @@ textarea[cols] {
 .form-label {
   display: block;
   margin-bottom: .375rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.875rem;
 }
 
