@@ -11606,6 +11606,7 @@ a.icon:hover {
   display: flex;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .nav-link .badge,
